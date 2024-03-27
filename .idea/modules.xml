@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloWorld-app/HelloWorld-app.iml" filepath="$PROJECT_DIR$/HelloWorld-app/HelloWorld-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpServletTest_1/HttpServletTest_1.iml" filepath="$PROJECT_DIR$/HttpServletTest_1/HttpServletTest_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerSocketTest1/ServerSocketTest1.iml" filepath="$PROJECT_DIR$/ServerSocketTest1/ServerSocketTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TomcatTest/TomcatTest.iml" filepath="$PROJECT_DIR$/TomcatTest/TomcatTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TomcatTest2/TomcatTest2.iml" filepath="$PROJECT_DIR$/TomcatTest2/TomcatTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/UnionLotto/UnionLotto.iml" filepath="$PROJECT_DIR$/UnionLotto/UnionLotto.iml" />
     </modules>
   </component>
