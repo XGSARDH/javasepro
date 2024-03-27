@@ -13,6 +13,7 @@ import java.io.IOException;
  *      1. 服务端行为
  *      2. 地址栏不发生改变
  *      3. 从始至终只有一个请求
+ *      4. resquest数据可以共享
  */
 @WebServlet("/s03")
 public class Servlet03 extends HttpServlet {
@@ -23,6 +24,9 @@ public class Servlet03 extends HttpServlet {
         System.out.println("Servlet03 uname: " + uname);
 
         // 请求转发跳转到service04
-        request.getRequestDispatcher("s04").forward(request,response);
+        //request.getRequestDispatcher("s04").forward(request,response);
+
+        // 请求转发跳转到login页面
+        request.getRequestDispatcher("login.html").forward(request,response);
     }
 }
