@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../j/Annotations_Reflections/Annotations_Reflections.iml" filepath="$PROJECT_DIR$/../j/Annotations_Reflections/Annotations_Reflections.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/IdeaProjects/Annotations_Reflections/Annotations_Reflections_Test.iml" filepath="$USER_HOME$/Desktop/IdeaProjects/Annotations_Reflections/Annotations_Reflections_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Annotations_Reflections_Test/Annotations_Reflections_Test1.iml" filepath="$PROJECT_DIR$/Annotations_Reflections_Test/Annotations_Reflections_Test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld-app/HelloWorld-app.iml" filepath="$PROJECT_DIR$/HelloWorld-app/HelloWorld-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/HttpServletTest_1/HttpServletTest_1.iml" filepath="$PROJECT_DIR$/HttpServletTest_1/HttpServletTest_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/HttpServletTest_2/HttpServletTest_2.iml" filepath="$PROJECT_DIR$/HttpServletTest_2/HttpServletTest_2.iml" />
