@@ -9,7 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
-        <sourceRoots />
       </configuration>
     </facet>
   </component>
@@ -24,5 +23,15 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="J2EE 1.4-J2EE 1.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.87" level="application_server_libraries" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="commons.io" level="project" />
   </component>
 </module>

@@ -26,12 +26,14 @@ public class Servlet04 extends HttpServlet {
         String url = request.getRequestURL() + "";
         System.out.println("Get the complete URL of the request: " + url);
 
+        String output = "?uname=123";
+
         // 请求参数
         String uname = request.getParameter("uname");
-        System.out.println("uname" + uname);
+        System.out.println("uname: " + uname);
 
         // 重定向跳转到05
-        response.sendRedirect("s05");
+        response.sendRedirect("s05"+output);
 
     }
 

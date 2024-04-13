@@ -23,7 +23,7 @@ public class Servlet05 extends HttpServlet {
 
         // 请求参数
         String uname = request.getParameter("uname");
-        System.out.println("uname" + uname);
+        System.out.println("uname: " + uname);
 
     }
 

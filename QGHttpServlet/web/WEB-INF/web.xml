@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>ResponseServlet</servlet-name>
-        <servlet-class>ResponseServlet</servlet-class>
+        <servlet-class>com.sardh.ResponseServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>

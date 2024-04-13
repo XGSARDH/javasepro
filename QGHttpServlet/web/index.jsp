@@ -13,9 +13,11 @@
   <meta charset="UTF-8">
   <title>Button Click Example</title>
   <script>
-    function sendRequest() {
+    function sendRequest1() {
       var xhr = new XMLHttpRequest();
       xhr.open("POST", "response", true);
+      // 设置相应的内容类型
+      // 此处是否可以被更改成其他, 有什么格式要求
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
@@ -26,12 +28,13 @@
           }
         }
       };
-      xhr.send("buttonClicked=true");
+      xhr.send("buttonClicked1=true");
     }
   </script>
 </head>
 <body>
 <h2>Click the button below to send request to backend</h2>
-<button onclick="sendRequest()">Click me!</button>
+<button onclick="sendRequest1()">Click me!</button>
+<button onclick="sendRequest2()">Click me!</button>
 </body>
 </html>
