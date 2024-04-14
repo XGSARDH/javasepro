@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="schema">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JDBC_test/.idea/dataSources/f030f041-d7c0-46fa-b9bd-4d07aa86df3a/storage_v2/_src_/schema/sakila.oXLGyQ.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../JDBC_test/.idea/dataSources/f030f041-d7c0-46fa-b9bd-4d07aa86df3a/storage_v2/_src_/schema/information_schema.FNRwLQ.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../JDBC_test/.idea/dataSources/f030f041-d7c0-46fa-b9bd-4d07aa86df3a/storage_v2/_src_/schema/sys.zb4BAA.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
