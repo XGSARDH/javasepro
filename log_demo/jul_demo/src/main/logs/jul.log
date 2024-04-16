@@ -1,0 +1,14 @@
+4月 15, 2024 12:02:22 上午 com.sardh.TestJUL testLogConfig
+严重: severe
+4月 15, 2024 12:02:22 上午 com.sardh.TestJUL testLogConfig
+警告: warning
+4月 15, 2024 12:02:22 上午 com.sardh.TestJUL testLogConfig
+信息: info
+4月 15, 2024 12:02:22 上午 com.sardh.TestJUL testLogConfig
+配置: config
+4月 15, 2024 12:02:22 上午 com.sardh.TestJUL testLogConfig
+详细: fine
+4月 15, 2024 12:02:22 上午 com.sardh.TestJUL testLogConfig
+较详细: finer
+4月 15, 2024 12:02:22 上午 com.sardh.TestJUL testLogConfig
+非常详细: finest

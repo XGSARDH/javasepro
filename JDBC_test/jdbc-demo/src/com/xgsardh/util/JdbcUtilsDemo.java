@@ -1,11 +1,11 @@
-package com.xgsardh.util;
+package src.com.xgsardh.util;
 
 import java.sql.Connection;
 import java.sql.Statement;
 
 public class JdbcUtilsDemo {
     public static void main(String[] args)throws Exception {
-        Connection conn = JdbcUtils.getconntion();
+        Connection conn = com.xgsardh.util.JdbcUtils.getconntion();
 
         //3. 定义sql语句
         String sql = "update account set money = 4000 where id = 2";
@@ -22,7 +22,7 @@ public class JdbcUtilsDemo {
 
         //7. 释放资源
         //先释放后面打开的,后释放先打开的+
-        JdbcUtils.close(null,stmt,conn);
+        com.xgsardh.util.JdbcUtils.close(null,stmt,conn);
 
     }
 

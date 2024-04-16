@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Apr 16 16:20:22 CST 2024</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Logger">Logger</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+<td class="Thread">Thread</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2024-04-16 16:20:22.540</td>
+<td class="Logger">ccom.sardh.SLF4J_demo</td>
+<td class="MethodOfCaller">test01</td>
+<td class="LineOfCaller">15</td>
+<td class="Thread">main</td>
+<td class="Message">error</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Level">WARN</td>
+<td class="Date">2024-04-16 16:20:22.542</td>
+<td class="Logger">ccom.sardh.SLF4J_demo</td>
+<td class="MethodOfCaller">test01</td>
+<td class="LineOfCaller">16</td>
+<td class="Thread">main</td>
+<td class="Message">wring</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2024-04-16 16:20:22.542</td>
+<td class="Logger">ccom.sardh.SLF4J_demo</td>
+<td class="MethodOfCaller">test01</td>
+<td class="LineOfCaller">17</td>
+<td class="Thread">main</td>
+<td class="Message">info</td>
+</tr>
+
+<tr class="debug odd">
+<td class="Level">DEBUG</td>
+<td class="Date">2024-04-16 16:20:22.543</td>
+<td class="Logger">ccom.sardh.SLF4J_demo</td>
+<td class="MethodOfCaller">test01</td>
+<td class="LineOfCaller">18</td>
+<td class="Thread">main</td>
+<td class="Message">debug</td>
+</tr>
+
+<tr class="trace even">
+<td class="Level">TRACE</td>
+<td class="Date">2024-04-16 16:20:22.543</td>
+<td class="Logger">ccom.sardh.SLF4J_demo</td>
+<td class="MethodOfCaller">test01</td>
+<td class="LineOfCaller">19</td>
+<td class="Thread">main</td>
+<td class="Message">trance</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2024-04-16 16:20:22.543</td>
+<td class="Logger">ccom.sardh.SLF4J_demo</td>
+<td class="MethodOfCaller">test01</td>
+<td class="LineOfCaller">24</td>
+<td class="Thread">main</td>
+<td class="Message">姓名bysen，年龄24</td>
+</tr>
+
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2024-04-16 16:20:22.544</td>
+<td class="Logger">ccom.sardh.SLF4J_demo</td>
+<td class="MethodOfCaller">test01</td>
+<td class="LineOfCaller">30</td>
+<td class="Thread">main</td>
+<td class="Message">发生异常：</td>
+</tr>
+<tr><td class="Exception" colspan="6">java.lang.ArithmeticException: / by zero
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at ccom.sardh.SLF4J_demo.test01(SLF4J_demo.java:28)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+</td></tr>

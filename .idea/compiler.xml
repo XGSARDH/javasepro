@@ -7,7 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SLF4J_demo" />
         <module name="AnnotationsAndReflections" />
+        <module name="jul_demo" />
       </profile>
     </annotationProcessing>
   </component>
