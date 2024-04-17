@@ -10,6 +10,7 @@
         <module name="SLF4J_demo" />
         <module name="AnnotationsAndReflections" />
         <module name="jul_demo" />
+        <module name="MyThread" />
       </profile>
     </annotationProcessing>
   </component>

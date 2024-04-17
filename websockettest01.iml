@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/websockettest01/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/websockettest01/web" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/websockettest01/src/main/java" />
+          <root url="file://$MODULE_DIR$/websockettest01/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="javaeeApplication" name="javaEEApplication">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="application.xml" url="file://$MODULE_DIR$/websockettest01/META-INF/application.xml" />
+        </descriptors>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/websockettest01">
+      <sourceFolder url="file://$MODULE_DIR$/websockettest01/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/websockettest01/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/websockettest01/src/test" isTestSource="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.87" level="application_server_libraries" />
+    <orderEntry type="library" name="javax.websocket.api" level="project" />
+  </component>
+</module>

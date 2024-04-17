@@ -278,3 +278,4 @@ java.lang.ArithmeticException: / by zero
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
 [ERROR] 2024-04-16 16:37:36.992 ccom.sardh.SLF4J_demo test01 15 [main] error
+[ERROR] 2024-04-16 22:47:41.621 ccom.sardh.SLF4J_demo test01 15 [main] error

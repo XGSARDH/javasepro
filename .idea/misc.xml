@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/../AnnotationsAndReflections/pom.xml" />
         <option value="$PROJECT_DIR$/log_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/MyThread/pom.xml" />
+        <option value="$PROJECT_DIR$/websockettest01/pom.xml" />
       </list>
     </option>
   </component>
