@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 public class JdbcUtilsDemo {
     public static void main(String[] args)throws Exception {
-        Connection conn = com.xgsardh.util.JdbcUtils.getconntion();
+        Connection conn = JdbcUtils.getConnection();
 
         //3. 定义sql语句
         String sql = "update account set money = 4000 where id = 2";
@@ -22,8 +22,9 @@ public class JdbcUtilsDemo {
 
         //7. 释放资源
         //先释放后面打开的,后释放先打开的+
-        com.xgsardh.util.JdbcUtils.close(null,stmt,conn);
+        JdbcUtils.close(null,stmt,conn);
 
     }
 
 }
+

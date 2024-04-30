@@ -9,9 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SLF4J_demo" />
         <module name="AnnotationsAndReflections" />
+        <module name="websockettest01" />
         <module name="jul_demo" />
         <module name="MyThread" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pictureUpload03" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

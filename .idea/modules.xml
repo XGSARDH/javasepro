@@ -15,7 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyThreadPool/MyThreadPool.iml" filepath="$PROJECT_DIR$/MyThreadPool/MyThreadPool.iml" />
       <module fileurl="file://$PROJECT_DIR$/QGHttpServlet/QGHttpServlet.iml" filepath="$PROJECT_DIR$/QGHttpServlet/QGHttpServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/TomcatTest/TomcatTest.iml" filepath="$PROJECT_DIR$/TomcatTest/TomcatTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/websockettest01.iml" filepath="$PROJECT_DIR$/websockettest01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pictureUpload03/pictureUpload03.iml" filepath="$PROJECT_DIR$/pictureUpload03/pictureUpload03.iml" />
     </modules>
   </component>
 </project>

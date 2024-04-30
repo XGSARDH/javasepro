@@ -1,4 +1,4 @@
-package Sardh;
+package src.Sardh;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,6 +7,7 @@ import java.sql.Statement;
 
 /*
 JDBC API详解: Connection 详解
+手动开启事务
 */
 
 public class JDBCDemo3_Connection {
@@ -22,7 +23,7 @@ public class JDBCDemo3_Connection {
 
         //3. 定义sql语句
         String sql1 = "update account set money = 3000 where id = 2";
-        String sql2 = "update account set money = 3000 where id = 1";
+        String sql2 = "update account set money = 4000 where id = 2";
 
         //4. 获取执行sql的对象 Startment
         Statement stmt = conn.createStatement();

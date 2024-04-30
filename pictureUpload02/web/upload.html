@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Upload</title>
+  <script src="https://cdn.staticfile.net/vue/3.0.5/vue.global.js"></script>
+</head>
+<body>
+<div id="app">
+  <h1>Upload File</h1>
+  <form @submit.prevent="uploadFile">
+    Select file: <input type="file" @change="fileChanged"><br><br>
+    <button type="submit">Upload</button>
+  </form>
+</div>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      selectedFile: null,
+    },
+    methods: {
+      fileChanged(event) {
+        this.selectedFile = event.target.files[0];
+      },
+      uploadFile() {
+        const formData = new FormData();
+        formData.append('file', this.selectedFile);
+
+        fetch('upload', {
+          method: 'POST',
+          body: formData,
+        })
+                .then(response => response.text())
+                .then(html => alert('File uploaded successfully.'))
+                .catch(error => alert('Error uploading file: ' + error.message));
+      }
+    }
+  });
+</script>
+</body>
+</html>

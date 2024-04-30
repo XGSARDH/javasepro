@@ -1,4 +1,4 @@
-package com.xgsardh.util;
+package src.com.xgsardh.util;
 
 import com.sun.jdi.event.StepEvent;
 
@@ -22,7 +22,7 @@ public class JdbcUtils {
     //Connect to server
     static {
         try {
-            inputStream = JdbcUtils.class.getResourceAsStream("/com/xgsardh/resources/jdbc.properties");
+            inputStream = JdbcUtils.class.getResourceAsStream("/jdbc.properties");
             // This could throw IOException
             properties.load(inputStream);
             // This could throw ClassNotFoundException
@@ -48,7 +48,7 @@ public class JdbcUtils {
      *	@return		 : Connection
      *  @notice      : None
      */
-    public static Connection getconntion()throws Exception{
+    public static Connection getConnection()throws Exception{
         String url = properties.getProperty("url");
         String username = properties.getProperty("username");
         String password = properties.getProperty("password");
